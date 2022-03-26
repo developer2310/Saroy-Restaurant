@@ -1,0 +1,125 @@
+
+.container {
+    width: 90% !important;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.container .text-center {
+    /* lin: rgb(#FFDDEE,#FFBDE6,#F473B9); */
+    background-image: linear-gradient(#FFDDEE,#FFBDE6,#F473B9);
+    width: 100%;
+    height: 60px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #f23232;
+    width: 325px;
+    height: 270px;
+    background-color: #FBE5E5;
+    
+}
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+    width: 325px;
+    height: 270px;
+    background-color: #FFA1C9;  
+}
+.box3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+    width: 325px;
+    height: 270px;
+    background-color: #F94892; 
+}
+.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    color: #f15874;
+    width: 325px;
+    height: 270px;
+    background-color: #E60965; 
+}
+.box5 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    color: #f15874;
+    width: 325px;
+    height: 270px;
+    background-color: #FDEBF7; 
+}
+.box6 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    color: #f15874;
+    width: 325px;
+    height: 270px;
+    background-color: #FBCAFF; 
+}
+.box7 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    color: #f15874;
+    width: 325px;
+    height: 270px;
+    background-color: #FFADF0; 
+}
+.box8 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    color: #f15874;
+    width: 325px;
+    height: 270px;
+    background-color: #FC28FB; 
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+   
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+   
+}
+
+.footer a {
+        color: #fff;
+        text-decoration: none;
+        padding-left: 10px;
+}
